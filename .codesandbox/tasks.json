@@ -11,11 +11,13 @@
   "tasks": {
     "astro": {
       "name": "astro",
-      "command": "npm run astro"
+      "command": "npm run astro",
+      "runAtStart": false
     },
     "build": {
       "name": "build",
-      "command": "npm run build"
+      "command": "npm run build",
+      "runAtStart": false
     },
     "dev": {
       "name": "dev",
@@ -25,13 +27,12 @@
     "preview": {
       "name": "preview",
       "command": "npm run preview",
-      "preview": {
-        "port": 2124
-      }
+      "runAtStart": false
     },
     "start": {
       "name": "start",
       "command": "npm run start",
+      "runAtStart": false,
       "preview": {
         "port": 2121
       }
